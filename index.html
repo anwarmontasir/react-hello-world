@@ -15,8 +15,9 @@
         // element: our React application
         // container: the DOM element we insert our app into
         const appRoot = document.querySelector('#application-root');
-        
-        ReactDOM.render('Hello, world!', appRoot)
+        const helloWorldH1 = React.createElement('h1', null, 'Hello, world!');
+
+        ReactDOM.render(helloWorldH1, appRoot)
     </script>
 </body>
 </html>
